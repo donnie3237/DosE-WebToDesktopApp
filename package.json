@@ -1,0 +1,48 @@
+{
+  "name": "dose-ML",
+  "version": "1.0.0",
+  "description": "respect Us :)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "mon" : "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donnie3237/ElectronJS.git"
+  },
+  "author": "Dose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donnie3237/ElectronJS/issues"
+  },
+  "homepage": "https://github.com/donnie3237/ElectronJS#readme",
+  "devDependencies": {
+    "electron": "^20.2.0",
+    "electron-builder": "^23.3.3"
+  },
+  "build": {
+    "appId": "com.dose.dose-ml",
+    "productName": "DosE-ML",
+    "icon": "./logo.png",
+    "copyright": "Copyright 2022 Dose-ml",
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+        "category": "public.appcategory.developer-tools"
+      },
+    "linux": {
+      "target": [
+        "./logo.png",
+        "deb"
+      ]
+    }
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
