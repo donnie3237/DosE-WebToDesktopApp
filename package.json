@@ -7,8 +7,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder",
-    "mon" : "nodemon --exec electron ."
+    "build": "electron-builder",
+    "dose" : "nodemon --exec electron ."
   },
   "repository": {
     "type": "git",
@@ -25,10 +25,10 @@
     "electron-builder": "^23.3.3"
   },
   "build": {
-    "appId": "com.dose.dose-ml",
-    "productName": "DosE-ML",
+    "appId": "com.dose.appId",
+    "productName": "YourAppName",
     "icon": "./logo.png",
-    "copyright": "Copyright 2022 Dose-ml",
+    "copyright": "Copyright 2022 DosE",
     "win": {
       "target": [
         "nsis"
