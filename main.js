@@ -5,15 +5,12 @@ const ipc = ipcMain
 
 function createWindow () {
   const win = new BrowserWindow({
-
     // yourWindowSizeBelow ขนาดเริ่มต้นที่นี่
     width: 720,
     height: 550,
-
     // YourMin-Max width 
     maxWidth:1280,
     minWidth:600,
-
     // YourMin-Max height 
     minHeight:500,
     maxHeight:1080,
