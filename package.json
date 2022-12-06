@@ -1,7 +1,9 @@
-{
-  "name": "dose-ML",
+{ 
+  "//": "Change name in line 3 =>  Change description in line 5 =>",
+  "//": "change All in build",
+  "name": "YourNameApp",
   "version": "1.0.0",
-  "description": "respect Us :)",
+  "description": "YourDescription",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
