@@ -2,7 +2,7 @@ const {ipcRenderer} =require('electron')
 const ipc =ipcRenderer
 const closeApp =document.getElementById('closeApp')
 const minApp =document.getElementById('minApp')
-const fullApp =document.getElementById('full-app')
+const fullApp =document.getElementById('full-App')
 closeApp.addEventListener('click',()=>{
     ipc.send('close')
 })

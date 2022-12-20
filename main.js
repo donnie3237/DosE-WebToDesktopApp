@@ -23,9 +23,9 @@ function createWindow () {
       contextIsolation:false
     },
     // ICon Path ที่กำหนดพาธของไอคอนแอพ
-    icon:"./logo.png"
+    icon:"./assets/logo.jpg"
 })
-  win.loadFile('./index.html')
+  win.loadFile('./public/index.html')
   ipc.on('close',()=>{
     win.close()
   })
