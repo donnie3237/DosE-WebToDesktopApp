@@ -28,7 +28,7 @@
   "build": {
     "appId": "com.dose.appId",
     "productName": "YourAppName",
-    "icon": "./logo.png",
+    "icon": "./assets/logo.jpg",
     "copyright": "Copyright 2022 DosE",
     "win": {
       "target": [
@@ -40,7 +40,7 @@
       },
     "linux": {
       "target": [
-        "./logo.png",
+        "./assets/logo.jpg",
         "deb"
       ]
     }
