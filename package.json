@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "description": "YourDescription",
   "main": "main.js",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder",
