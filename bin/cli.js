@@ -14,7 +14,7 @@
  const gitCheckoutCommand = `git clone --depth 1 https://github.com/donnie3237/DosE-WebToDesktopApp ${repoName}`
  const installDepsCommand =`cd ${repoName} && npm install`
 
- console.log(`cloning with name ${repoName}`)
+  console.log(`cloning with name ${repoName}`)
 
   const checkOut = runCommand(gitCheckoutCommand);
   if(!checkOut) process.exit(-1)
@@ -23,6 +23,15 @@
   const installedDeps = runCommand(installDepsCommand);
   if(!installedDeps) process.exit(-1)
   
-  console.log('DOSE :)')
-  console.log('You are ready !!, follow this below to start ')
-  console.log(`cd ${repoName} && npm dose`)
+console.log('------------------------------------')
+console.log('------------------------------------')
+console.log(' =====      ===    //==\\\\ ||====')
+console.log('  ||  \\\\  ||   ||  ||     ||')
+console.log('  ||   || ||   ||    \\\\   ||====')
+console.log('  ||  //  ||   ||     ||  ||')
+console.log(' =====      ===   \\\\==//  ||====')
+console.log('------------------------------------')
+console.log('------------------------------------')
+console.log('You are ready !!, follow this below to start ')
+console.log(`cd ${repoName} && npm run dose`)
+console.log('DOSE :)')

@@ -2,7 +2,7 @@
   "//": "Change name in line 3 =>  Change description in line 5 =>",
   "//": "change All in build",
   "name": "dose-wtd-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "YourDescription",
   "main": "main.js",
   "bin": "./bin/cli.js",
