@@ -1,6 +1,4 @@
 { 
-  "//": "Change name in line 3 =>  Change description in line 5 =>",
-  "//": "change All in build",
   "name": "dose-wtd",
   "version": "1.0.0",
   "description": "YourDescription",
@@ -43,6 +41,13 @@
         "./assets/logo.jpg",
         "deb"
       ]
+    },
+    "nsis":{
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "displayLanguageSelector": true,
+      "installerLanguages": ["en_US" , "th_TH"]
     }
   },
   "dependencies": {
