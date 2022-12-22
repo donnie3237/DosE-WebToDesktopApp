@@ -24,9 +24,13 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
     color: aliceblue;
     cursor: pointer;
+}
+a svg{
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 h1{
     width: 30px;

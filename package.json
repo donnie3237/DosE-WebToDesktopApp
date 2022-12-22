@@ -24,7 +24,7 @@
     "electron-builder": "^23.3.3"
   },
   "build": {
-    "appId": "com.dose.appId",
+    "appId": "com.dose.hello",
     "productName": "YourAppName",
     "icon": "./assets/logo.jpg",
     "copyright": "Copyright 2022 DosE",
