@@ -5,7 +5,8 @@
 </div>
 <h3 align="center">change-web to app with ElectronJS</h3>
 <br/>
-<h2 align="center">Step to Use<h2>
+<hr/>
+<h3 align="center">Step to Use<h3>
  <h3 align="center">V<h3>
  <h3 align="center">V<h3>
   <h3 align="center">
