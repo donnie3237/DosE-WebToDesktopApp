@@ -6,19 +6,20 @@
 <h3 align="center">change-web to app with ElectronJS</h3>
 <br/>
 <h2 align="center">Step to Use<h2>
-  
-> git clone
+ <h3 align="center">V<h3>
+ <h3 align="center">V<h3>
+  <h3 align="center">
+ npx dose-wtd name
+ </h3>
+ <h3 align="center">V<h3>
+ <h3 align="center">V<h3>
   <br/>
-  
-> cd dosE-webtodesktopapp
+  <h3 align="center">
+ read PDF file
+  </h3>
   <br/>
-  
-> npm i
-  <br/>
-  
-> read PDF file
-  <br/>
-  
+    <h3 align="center">V<h3>
+    <h3 align="center">V<h3>
   <br/>
   
   <h3 align="center">Hope you Enjoyed :)</h3>
